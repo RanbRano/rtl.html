@@ -1,0 +1,89 @@
+
+/* <!-- Menu Hide Button --> */
+.bi-list::before {
+
+    transform: scaleX(1.4);
+    font-size: 2rem;
+}
+.myButton:hover {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+/* SideBar */
+.sidebar {
+    width: 280px;
+    transition: 0.3s;
+}
+
+.small-sidebar {
+    width: 77px;
+}
+
+.small-sidebar .sidebar-text {
+    display: none;
+}
+
+
+/* Logo */
+/* البعد عن اليمين */
+#sidebarId > a > i {
+    margin-right: 0.55rem;
+}
+
+.bi-lightbulb-fill {
+    /* margin-left: 1rem; */
+    font-size: 2rem;
+    color: rgb(204, 159, 13);
+    rotate: 360deg;
+    transition: 1s;
+}
+
+/* Opener LOGO */
+
+.bi-lightbulb-fill::before {
+    rotate: -360deg;
+    transition: 1s;
+    margin-left: 0.55rem;
+}
+
+/* Colser LOGO*/
+.small-sidebar .bi-lightbulb-fill::before {
+    content: "\F46B";
+    rotate: 360deg;
+    transition: 1s;
+    margin-right: 0.04rem;
+}
+
+.bi-lightbulb-fill:hover {
+    /* transform: rotateY(300deg); */
+    rotate: -360deg;
+    transition: 1s;;
+}
+
+
+
+/* ترتيب البتن تحت اللوغو */
+#sidebarId > ul {
+    margin-right: -3rem;
+}
+
+/* بُعد اسم البراند عن اللوغو */
+#sidebarId > a > span {
+margin-right: 0.5rem;
+font-family: Boahmed Alhour;
+font-size: 35px !important;
+font-weight: bold;
+}
+
+/* الحد  من حجم  اسم المستخدم */
+
+
+
+
+
+/* SideBar Text Family Fonts */
+/* #sidebarId > a > span{
+    font-family: ;
+} */
+
